@@ -4,10 +4,10 @@ import { RouterModule, RouterLink, RouterLinkActive, RouterOutlet } from '@angul
 @Component({
   selector: 'app-root',
   standalone: true,
-  templateUrl: './app.html',
-  styleUrls: ['./app.scss'],
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
   imports: [RouterModule, RouterLink, RouterLinkActive, RouterOutlet],
 })
 export class App {
-  title = 'Tu Proyecto';
+  title = 'conta-front';
 }
